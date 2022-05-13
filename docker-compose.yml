@@ -1,0 +1,12 @@
+version: "3"
+services:
+  node:
+    build:
+      context: ./
+    environment:
+      - NODE_ENV=production
+      - REACT_APP_NAME=app
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - "3000:3000"

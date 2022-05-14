@@ -11,4 +11,6 @@ docker-compose run --rm --service-ports node ash -c "cd \$REACT_APP_NAME; yarn s
 
 ```
 docker-compose run --rm --service-ports node ash -c "cd \$REACT_APP_NAME; yarn build"
+rm -rf docs/*
+cp -rf app/build/* docs
 ```

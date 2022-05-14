@@ -15,11 +15,11 @@ function RandomDog() {
       .catch(() =>{
         setIsLoading(false);
       })
-  }
+  };
 
   useEffect(() => {
     getDog()
-  }, [])
+  }, []);
 
   return (
     <>

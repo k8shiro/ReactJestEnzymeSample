@@ -1,6 +1,8 @@
 # ReactJestEnzymeSample
 Reactのテストコードサンプル
 
+ghpages: https://k8shiro.github.io/ReactJestEnzymeSample/
+
 **起動**
 
 ```

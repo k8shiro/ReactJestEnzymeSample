@@ -9,7 +9,7 @@ ghpages: https://k8shiro.github.io/ReactJestEnzymeSample/
 docker-compose run --rm --service-ports node ash -c "cd \$REACT_APP_NAME; yarn start"
 ```
 
-**build**
+**buildと公開**
 
 ```
 docker-compose run --rm --service-ports node ash -c "cd \$REACT_APP_NAME; yarn build"
